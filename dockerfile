@@ -56,3 +56,5 @@ RUN yes "y" | flutter doctor --android-licenses
 RUN flutter doctor -v
 
 ENV PATH $PATH:/flutter/bin/cache/dart-sdk/bin:/flutter/bin
+
+CMD ['ansible']
